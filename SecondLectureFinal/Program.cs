@@ -22,3 +22,13 @@ Console.WriteLine(word2.ToLower());
 
 //ToUpperInvariant()
 Console.WriteLine(word2.ToUpper());
+
+//String to Int
+string stringToInt = "5";
+string stringToint2 = "10";
+
+int intString = Convert.ToInt32(stringToInt);
+int intString2 = Convert.ToInt32(stringToint2);
+
+Console.WriteLine(stringToInt + stringToint2);
+Console.WriteLine(intString + intString2);
