@@ -32,3 +32,6 @@ int intString2 = Convert.ToInt32(stringToint2);
 
 Console.WriteLine(stringToInt + stringToint2);
 Console.WriteLine(intString + intString2);
+
+//all text in line
+Console.WriteLine($"{word}; {word2}; {intString}; {intString2}");
